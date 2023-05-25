@@ -6,6 +6,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     component: IndexPage,
   },
+  {
+    path: "/:category",
+    component: IndexPage,
+  }
+
 ];
 
 const router = createRouter({
