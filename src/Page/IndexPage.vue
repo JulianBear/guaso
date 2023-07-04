@@ -9,6 +9,7 @@
     />
 
   <MyDivider></MyDivider>
+  <h1>just for dev</h1>
   <a-tabs v-model:activeKey="activeKey" @change="onTabChange">
     <a-tab-pane key="Post" tab="POST"><PostList :post-list="postList"/></a-tab-pane>
     <a-tab-pane key="User" tab="USER" > <UserList :user-list="userList"/></a-tab-pane>
